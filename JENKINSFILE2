@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                bat '"C:\Users\lenovo\AppData\Local\Programs\Python\Python313\python.exe" -V'
+                bat '"C:/Users/lenovo/AppData/Local/Programs/Python/Python313/python.exe" -V'
             }
         }
     }
